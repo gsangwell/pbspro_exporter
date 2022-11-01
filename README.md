@@ -25,16 +25,6 @@ pbspro_exporter                latest              db2491b8eda5        7 minutes
 ### 2.1.docker
 
 ```bash
-# docker run --name pbspro_exporter -e PBS_ADDR=192.168.100.10 -e EXPORTER_PORT=9107 -d taylor840326/pbspro_exporter:latest
+# docker run --name pbspro_exporter -e PBS_ADDR=192.168.100.10 -e EXPORTER_PORT=9107 -d gsangwell/pbspro_exporter:latest
 # curl localhost:9107/metrics
 ```
-
-### Donate
-
------
-
-If you like the project and want to buy me a cola, you can through:
-
-| PayPal                                                                                                               | 微信                                                                 |
-| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [![](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)](https://www.paypal.me/taylor840326) | ![](https://github.com/taylor840326/blog/raw/master/imgs/weixin.png) |

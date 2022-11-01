@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readonly IMGPRJ=taylor840326
+readonly IMGPRJ=gsangwell
 readonly IMGNAME=pbspro_exporter
 readonly IMGTAG=latest
 readonly CNAME=pbspro_exporter
